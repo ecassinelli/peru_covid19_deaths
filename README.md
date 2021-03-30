@@ -29,5 +29,6 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 
 ## Frequency
 
-This repository will be updated every week. 
+This repository will be updated every week.
+
 Last update: 30-03-2021
