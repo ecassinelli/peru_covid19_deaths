@@ -10,13 +10,13 @@ pandemic until March 27, 2021.
 The dataset used was extraced from http://datosabiertos.go.pe website.
 (https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa)
 
-Publisher:              Datos Abiertos de COVID-19
-Last Update:            30-3-2021
-Frequency:              Daily
-License:                Open Data commons Attribution License
-Lengague:               Spanish (Peru)
-Author:                 Ministerio de Salud (MINSA) -  Ministry of Health
-Public Access Level:    Public
+- Publisher:              Datos Abiertos de COVID-19
+- Last Update:            30-3-2021
+- Frequency:              Daily
+- License:                Open Data commons Attribution License
+- Lengague:               Spanish (Peru)
+- Author:                 Ministerio de Salud (MINSA) -  Ministry of Health
+- Public Access Level:    Public
 
 ## Contents
 
