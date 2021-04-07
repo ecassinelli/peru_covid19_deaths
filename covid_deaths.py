@@ -24,7 +24,7 @@ app.layout = html.Div([
         html.P('Note: Single-Click in any department to remove it from the graph, double-click any department to isolate it (single-click after that to add other departments).'),
         dcc.Graph(
             id='deaths by department/state',
-            figure=px.bar(
+            figure=px.area(
                 deaths_by_state,
                 x='FECHA_FALLECIMIENTO',
                 y='TOTAL',
