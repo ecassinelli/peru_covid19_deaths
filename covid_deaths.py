@@ -14,7 +14,7 @@ covid_deaths['FECHA_FALLECIMIENTO'] = pd.to_datetime(covid_deaths['FECHA_FALLECI
 deaths_by_state = covid_deaths.groupby(['FECHA_FALLECIMIENTO', 'DEPARTAMENTO']).DEPARTAMENTO.agg('count').to_frame('TOTAL').reset_index()
 # print(deaths_by_state)
 
-app = dash.Dash()
+app = dash.Dash(__name__)
 
 app.layout = html.Div([
     html.H1('COVID-19 Deaths in Peru', style={'textAlign':'center'}),
@@ -36,7 +36,7 @@ app.layout = html.Div([
                 })
         )
     ])
-])
+], className='covid_dash')
 
 if __name__ == '__main__':
     app.run_server()
