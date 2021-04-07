@@ -22,9 +22,12 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 
 ```bash
 .
+├── assets
+│   └── style.css
 ├── covid_deaths.py
 ├── fallecidos_covid.csv
-└── README.md
+├── README.md
+└── screenshot.png
 ```
 
 ## Frequency
