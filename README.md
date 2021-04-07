@@ -1,6 +1,6 @@
 # COVID-19 Deaths in Peru 
 This script creates a basic web dashboard, with Dash and Ploty, that contains 
-a bar graph to see the evolution of deaths by department (state) in Peru 
+an area graph to see the evolution of deaths by department (state) in Peru 
 since the start of the pandemic until March 27, 2021.
 
 ![Alt text](./screenshot.png)
