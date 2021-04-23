@@ -23,9 +23,11 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 
 ```bash
 .
-├── covid_deaths.py
-├── fallecidos_covid.csv
+├── data
+│   └── fallecidos_covid.csv
+├── index.py
 ├── README.md
+├── requirements.txt
 └── screenshot.png
 ```
 
