@@ -12,7 +12,7 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 (https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa)
 
 - Publisher:              Datos Abiertos de COVID-19
-- Last Update:            30-3-2021
+- Last Update:            23-04-2021
 - Frequency:              Daily
 - License:                Open Data commons Attribution License
 - Lenguage:               Spanish (Peru)
@@ -34,3 +34,5 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 This repository will be updated every week.
 
 Last update: 23-04-2021
+
+Soon to be deployed to Heroku!
