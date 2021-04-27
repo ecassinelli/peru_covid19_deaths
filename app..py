@@ -23,9 +23,6 @@ depts_options = [{'label': dept,'value':dept} for dept in depts]
 deaths_by_state = covid_deaths.groupby(['FECHA_FALLECIMIENTO', 'DEPARTAMENTO']).DEPARTAMENTO.agg('count').to_frame('TOTAL').reset_index()
 # print(deaths_by_state)
 
-# Linking an external CSS stylesheet 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
 # Initializing the dash application
 app = dash.Dash(__name__)
 server = app.server
@@ -60,8 +57,7 @@ app.layout = html.Div([
                 {'label':'2020', 'value': '2020'},
                 {'label':'2021', 'value': '2021'}
             ],
-            value='2021',
-            className='two columns'
+            value='2021'
         ),
         dcc.Dropdown(
             id='month_dropdown',
@@ -79,15 +75,13 @@ app.layout = html.Div([
                 {'label':'Nov', 'value':'11'},
                 {'label':'Dec', 'value':'12'}, 
             ],
-            value='03',
-            className='two columns'
+            value='03'
         ),
         dcc.Dropdown(
             id='dept_dropdown',
             options=depts_options,
             value=['AREQUIPA', 'LA LIBERTAD'],
-            multi=True,
-            className='eight columns'
+            multi=True
         ) 
     ]),
 
