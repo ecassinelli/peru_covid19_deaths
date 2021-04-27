@@ -28,6 +28,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # Initializing the dash application
 app = dash.Dash(__name__)
+server = app.server
 
 # Structuring the layout of the web app
 app.layout = html.Div([
