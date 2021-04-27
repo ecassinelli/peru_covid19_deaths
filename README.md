@@ -28,8 +28,10 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 .
 ├── data
 │   └── fallecidos_covid.csv
-├── index.py
+├── .gitignore
+├── Procfile
 ├── README.md
+├── app.py
 ├── requirements.txt
 └── screenshot.png
 ```
