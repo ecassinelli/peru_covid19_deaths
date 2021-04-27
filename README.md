@@ -4,6 +4,9 @@ an interactive area graph to see the evolution of deaths by department (state)
 in Peru since the start of the pandemic until April, 2021; and an interactive
 line graph of deaths by state and month.
 
+The dashboard is now deployed in heroku!
+Visit at: https://peru-covid-dashboard.herokuapp.com/
+
 ![Alt text](./screenshot.png)
 
 ## The Dataset
