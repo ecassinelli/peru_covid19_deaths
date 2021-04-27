@@ -25,7 +25,7 @@ deaths_by_state = covid_deaths.groupby(['FECHA_FALLECIMIENTO', 'DEPARTAMENTO']).
 
 # Initializing the dash application
 app = dash.Dash(__name__)
-server = app.server
+
 
 # Structuring the layout of the web app
 app.layout = html.Div([
@@ -118,5 +118,7 @@ def monthly_figure(year, month, dept):
 
     return fig
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+
+server = app.server
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
