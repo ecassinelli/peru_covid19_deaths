@@ -124,4 +124,4 @@ def monthly_figure(year, month, dept):
     return fig
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
