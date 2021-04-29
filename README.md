@@ -41,5 +41,3 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 This repository will be updated every week.
 
 Last update: 29-04-2021
-
-Soon to be deployed to Heroku!
