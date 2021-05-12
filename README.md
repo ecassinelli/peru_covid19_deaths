@@ -1,7 +1,7 @@
 # COVID-19 Deaths in Peru 
 This script creates a basic web dashboard, with Dash and Ploty, that contains 
 an interactive area graph to see the evolution of deaths by department (state)
-in Peru since the start of the pandemic until April, 2021; and an interactive
+in Peru since the start of the pandemic until May, 2021; and an interactive
 line graph of deaths by state and month.
 
 The dashboard is now deployed in heroku!
@@ -15,7 +15,7 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 (https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa)
 
 - Publisher:              Datos Abiertos de COVID-19
-- Last Update:            29-04-2021
+- Last Update:            12-05-2021
 - Frequency:              Daily
 - License:                Open Data commons Attribution License
 - Lenguage:               Spanish (Peru)
@@ -40,4 +40,4 @@ The dataset used was extraced from http://datosabiertos.go.pe website.
 
 This repository will be updated every week.
 
-Last update: 29-04-2021
+Last update: 12-05-2021
